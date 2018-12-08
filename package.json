@@ -1,0 +1,31 @@
+{
+  "name": "koa-hello-world",
+  "version": "1.0.0",
+  "description": "after years of working with express, I've tried to experiment with koa a little.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "start:watch": "nodemon --exec babel-node server.js",
+    "watch": "npm run start:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirbr510/koa-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shirbr510/koa-hello-world/issues"
+  },
+  "homepage": "https://github.com/shirbr510/koa-hello-world#readme",
+  "dependencies": {
+    "koa": "^2.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "nodemon": "^1.18.7"
+  }
+}
